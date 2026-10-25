@@ -1,0 +1,1112 @@
+<!DOCTYPE html><html class="dark scroll-smooth" lang="es" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>EL TRAGÓN • Menú Digital &amp; Parrilla</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "primary-fixed": "#ffdcc4",
+            "background": "#131313",
+            "surface-container-high": "#2a2a2a",
+            "on-tertiary-fixed-variant": "#004b70",
+            "primary-container": "#fb8500",
+            "surface": "#131313",
+            "on-primary-fixed-variant": "#703800",
+            "on-primary": "#4e2500",
+            "error": "#ffb4ab",
+            "surface-container-low": "#1c1b1b",
+            "surface-tint": "#ffb781",
+            "secondary": "#ffd795",
+            "outline-variant": "#574335",
+            "surface-container-highest": "#353534",
+            "tertiary-fixed-dim": "#8dcdff",
+            "on-background": "#e5e2e1",
+            "tertiary-fixed": "#cae6ff",
+            "on-secondary": "#422c00",
+            "surface-container": "#201f1f",
+            "surface-bright": "#393939",
+            "inverse-primary": "#934b00",
+            "on-primary-fixed": "#301400",
+            "on-error-container": "#ffdad6",
+            "tertiary": "#8dcdff",
+            "on-secondary-container": "#694900",
+            "on-surface-variant": "#dec1ae",
+            "on-secondary-fixed": "#271900",
+            "secondary-fixed-dim": "#ffba27",
+            "on-tertiary-fixed": "#001e30",
+            "outline": "#a58c7b",
+            "on-surface": "#e5e2e1",
+            "inverse-on-surface": "#313030",
+            "on-primary-container": "#5d2e00",
+            "inverse-surface": "#e5e2e1",
+            "surface-variant": "#353534",
+            "surface-container-lowest": "#0e0e0e",
+            "error-container": "#93000a",
+            "surface-dim": "#131313",
+            "primary-fixed-dim": "#ffb781",
+            "secondary-fixed": "#ffdea9",
+            "on-secondary-fixed-variant": "#5e4100",
+            "on-error": "#690005",
+            "secondary-container": "#fbb400",
+            "on-tertiary-container": "#003e5e",
+            "primary": "#ffb781",
+            "tertiary-container": "#00aefc",
+            "on-tertiary": "#00344f"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "margin-desktop": "3rem",
+            "space-lg": "1.5rem",
+            "gutter": "1rem",
+            "space-xl": "2.5rem",
+            "space-sm": "0.5rem",
+            "margin": "1rem",
+            "space-md": "1rem",
+            "space-xs": "0.25rem",
+            "gutter-desktop": "1.5rem"
+          },
+          "fontFamily": {
+            "label-sm": ["Inter"],
+            "label-lg": ["Bebas Neue"],
+            "headline-lg-mobile": ["Bebas Neue"],
+            "headline-md": ["Bebas Neue"],
+            "body-md": ["Inter"],
+            "body-lg": ["Inter"],
+            "display-lg-mobile": ["Bebas Neue"],
+            "headline-lg": ["Bebas Neue"],
+            "display-lg": ["Bebas Neue"],
+            "title-md": ["Inter"]
+          },
+          "fontSize": {
+            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }],
+            "label-lg": ["18px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "400" }],
+            "headline-lg-mobile": ["28px", { "lineHeight": "30px", "letterSpacing": "0.02em", "fontWeight": "400" }],
+            "headline-md": ["24px", { "lineHeight": "26px", "letterSpacing": "0.02em", "fontWeight": "400" }],
+            "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "display-lg-mobile": ["40px", { "lineHeight": "40px", "letterSpacing": "0.03em", "fontWeight": "400" }],
+            "headline-lg": ["36px", { "lineHeight": "38px", "letterSpacing": "0.03em", "fontWeight": "400" }],
+            "display-lg": ["56px", { "lineHeight": "56px", "letterSpacing": "0.04em", "fontWeight": "400" }],
+            "title-md": ["18px", { "lineHeight": "24px", "fontWeight": "700" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    /* Custom Chalk & Grill Accents */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .chalk-border {
+      border: 1px dashed rgba(255, 255, 255, 0.2);
+    }
+    .ember-glow {
+      box-shadow: 0 0 20px rgba(251, 133, 0, 0.25);
+    }
+    .chalk-mark {
+      background: linear-gradient(135deg, rgba(251, 133, 0, 0.18) 0%, rgba(255, 183, 3, 0.08) 100%);
+    }
+  </style>
+</head>
+<body class="bg-surface-container-lowest text-on-surface antialiased selection:bg-primary-container selection:text-on-primary">
+<!-- TopAppBar Anchor from Shared Components -->
+<header class="docked full-width top-0 sticky z-50 shadow-md bg-surface-container-low/95 backdrop-blur-md">
+<div class="flex justify-between items-center w-full px-margin py-space-sm max-w-[1200px] mx-auto">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-primary-container text-2xl" data-icon="local_fire_department">local_fire_department</span>
+<span class="font-headline-lg-mobile text-headline-lg-mobile tracking-wider text-primary-container uppercase">EL TRAGÓN</span>
+</div>
+<!-- Quick Action / Search Trigger -->
+<div class="flex items-center space-x-2">
+<a class="hidden sm:inline-flex items-center gap-1.5 bg-primary-container text-on-primary font-label-lg text-label-lg px-3 py-1.5 rounded-lg active:scale-95 transition-transform duration-100 uppercase" href="https://wa.me/573242944513?text=Hola%20El%20Tragón,%20quiero%20hacer%20un%20pedido" target="_blank">
+<span class="material-symbols-outlined text-base" data-icon="chat">chat</span>
+<span class="">Pedir</span>
+</a>
+<button aria-label="Buscar plato" class="w-10 h-10 flex items-center justify-center rounded-lg bg-surface-container text-on-surface-variant hover:text-primary-container transition-colors duration-150 active:scale-95" id="search-btn">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+</button>
+</div>
+</div>
+<!-- Live Search Drawer (collapsible / fluid) -->
+<div class="px-margin pb-space-sm pt-1 max-w-[1200px] mx-auto" id="search-bar-container">
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-outline text-lg pointer-events-none" data-icon="search">search</span>
+<input class="w-full bg-surface-container-lowest text-on-surface placeholder:text-outline pl-10 pr-10 py-2 rounded-lg border border-outline-variant/30 text-body-md font-body-md focus:border-primary-container focus:ring-1 focus:ring-primary-container focus:outline-none transition-all" id="dish-search" placeholder="Buscar cortes, hamburguesas, picadas..." type="text">
+<button class="hidden absolute right-3 text-outline hover:text-on-surface" id="clear-search">
+<span class="material-symbols-outlined text-sm" data-icon="close">close</span>
+</button>
+</div>
+</div>
+<!-- Horizontal Category Scroll Bar (Mobile-first Thumb navigation) -->
+<nav class="overflow-x-auto no-scrollbar py-2 px-margin flex items-center gap-2 border-t border-outline-variant/15 max-w-[1200px] mx-auto">
+<a class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant text-label-sm font-label-sm uppercase hover:text-secondary-fixed-dim transition-colors active:scale-95" href="#desayunos">🍳 Desayunos</a>
+<a class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant text-label-sm font-label-sm uppercase hover:text-secondary-fixed-dim transition-colors active:scale-95" href="#almuerzos">🍽️ Almuerzos</a>
+<a class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant text-label-sm font-label-sm uppercase hover:text-secondary-fixed-dim transition-colors active:scale-95" href="#entradas">🌶️ Entradas</a>
+<a class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-lg bg-primary-container text-on-primary text-label-sm font-label-sm uppercase shadow-sm active:scale-95 font-bold" href="#parrilla">🥩 Parrilla</a>
+<a class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant text-label-sm font-label-sm uppercase hover:text-secondary-fixed-dim transition-colors active:scale-95" href="#picadas">🍖 Picadas</a>
+<a class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant text-label-sm font-label-sm uppercase hover:text-secondary-fixed-dim transition-colors active:scale-95" href="#chuzos">🍢 Chuzos</a>
+<a class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant text-label-sm font-label-sm uppercase hover:text-secondary-fixed-dim transition-colors active:scale-95" href="#alitas">🍗 Alitas</a>
+<a class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant text-label-sm font-label-sm uppercase hover:text-secondary-fixed-dim transition-colors active:scale-95" href="#hamburguesas">🍔 Hamburguesas</a>
+<a class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant text-label-sm font-label-sm uppercase hover:text-secondary-fixed-dim transition-colors active:scale-95" href="#perros">🌭 Perros</a>
+<a class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant text-label-sm font-label-sm uppercase hover:text-secondary-fixed-dim transition-colors active:scale-95" href="#salchipapas">🍟 Salchipapas</a>
+<a class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant text-label-sm font-label-sm uppercase hover:text-secondary-fixed-dim transition-colors active:scale-95" href="#patacones">🍌 Patacones</a>
+<a class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant text-label-sm font-label-sm uppercase hover:text-secondary-fixed-dim transition-colors active:scale-95" href="#bebidas">🍹 Bebidas</a>
+</nav>
+</header>
+<!-- Main Canvas -->
+<main class="w-full max-w-[1200px] mx-auto px-margin md:px-margin-desktop pt-4 pb-28 space-y-space-xl">
+<!-- Hero / Atmospheric Presentation -->
+<section class="relative rounded-xl overflow-hidden bg-surface-container-low border border-outline-variant/30 p-4 md:p-8">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+<div class="md:col-span-7 space-y-3 z-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high border border-outline-variant/40">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="text-label-sm font-label-sm text-secondary uppercase tracking-wider">Comidas Rápidas &amp; Parrilla Urbana</span>
+</div>
+<h1 class="text-display-lg-mobile md:text-display-lg font-display-lg-mobile md:font-display-lg text-primary-fixed uppercase tracking-tight leading-none">
+            ¡QUE CHIMBA DE PARCHE PUES!
+          </h1>
+<p class="text-body-lg font-body-lg text-on-surface-variant max-w-xl">
+            Aquí se viene a comer bueno: <span class="text-secondary font-bold">bien servido, bien sabroso</span> y con toda la actitud de la parrilla paisa.
+          </p>
+<div class="pt-2 flex flex-wrap gap-3">
+<a class="px-5 py-2.5 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg uppercase tracking-wider inline-flex items-center gap-2 active:scale-95 transition-transform" href="https://wa.me/573242944513?text=Hola%20El%20Tragón,%20quiero%20ordenar%20a%20mi%20mesa" target="_blank">
+<span class="material-symbols-outlined text-xl" data-icon="skillet">skillet</span>
+              Ordenar Ahora
+            </a>
+<a class="px-5 py-2.5 rounded-lg bg-surface-container text-on-surface border border-outline-variant/40 font-label-lg text-label-lg uppercase hover:border-secondary transition-colors" href="#picadas">
+              Ver Especiales al Barril
+            </a>
+</div>
+</div>
+<div class="md:col-span-5 relative">
+<div class="relative rounded-lg overflow-hidden border border-outline-variant/40 aspect-[4/3] bg-surface-container-lowest">
+<img alt="Picada al Barril El Tragón" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvjaP9aySAE78PVEF8M4PL6CGyAsrkBja0V26TBmlcvYq-osgN9lzeqSB_h3D09htWfzaLLrxyv7PcjnHQV8WiGHe-eWyT8OpfN0it0iOp13dC3uNQw7DDBCKWCVkzTSmtE9d8Ou9qzkKC-t8HZm1viiWjCt4sgeeHkMA61Y2iHfs9Ga50LE-Pp3taPkyhu66aE635SZssXmltv1NJt7u_l6bNXbnhjtpVAXDJ2iHLUmbPYYIuOzW48jHXV50tvBkrLmr0gfQ8A-KQmVs">
+<div class="absolute bottom-2 right-2 bg-surface-container-lowest/90 px-3 py-1 rounded text-label-sm font-label-sm text-secondary border border-outline-variant/40 uppercase">
+              🔥 Hecho al barril</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: DESAYUNOS -->
+<section class="menu-category space-y-4" id="desayunos">
+<div class="flex items-center gap-3">
+<span class="text-2xl">🍳</span>
+<div class="chalk-mark px-4 py-1.5 rounded-lg border-l-4 border-primary-container">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg uppercase text-on-surface tracking-wide">
+            DESAYUNOS EL TRAGÓN
+          </h2>
+</div>
+<span class="text-label-sm font-label-sm text-secondary bg-surface-container px-2 py-1 rounded border border-outline-variant/30 ml-auto">Desde $14.000</span>
+</div>
+<!-- Featured Calentado Item Bento Card -->
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 p-4 md:p-6 grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
+<div class="md:col-span-5 aspect-[4/3] rounded-lg overflow-hidden border border-outline-variant/30 bg-surface-container-lowest">
+<img alt="Calentado El Tragón" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPg4VNxp4Xkfjmnj22k-LTbxk8PcVZCrZ-ETXiqRERKZII28JUk4Kht7xTotDD361_BaGRD27l_HzbBefwbFOF1v9IaXEIN1ZwunJp4hjXeZ4r7Q8cKNxIzYJAJ_ejeVcd3o__VCsId0dZ_DDe6NReEQEMZcZm4b7uqkxPCVbBby5xFZRI-K6e4Y0oDhIqksfWrmSHG0gT4fCUV8iijrwN7ih9Dg32aLT8BwLw6JchCe3V8uXwNXe-Qd5U-JbTZr7sB16IdDPfLxICxt0">
+</div>
+<div class="md:col-span-7 space-y-2">
+<div class="flex justify-between items-start">
+<span class="text-label-sm font-label-sm uppercase bg-primary-container/20 text-primary-fixed px-2 py-0.5 rounded border border-primary-container/40">⭐ Estrella de la Mañana</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim"><br></span>
+</div>
+<h3 class="text-headline-md font-headline-md uppercase text-on-surface">Calentado El Tragón</h3>
+<p class="text-body-md font-body-md text-on-surface-variant">Arroz, frijoles, huevos&nbsp; y hogado, acompañado de arepa con queso campesino y la proteina de tu eleccíon.</p>
+<div class="pt-2 flex items-center justify-between">
+<span class="text-label-sm font-label-sm text-outline">Incluye bebida tradicional</span>
+
+</div>
+</div>
+</div>
+<!-- Compact Desayunos Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+<div class="dish-item rounded-lg bg-surface-container p-3.5 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Arepa Tragoncita</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$14.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Queso campesino fresco y huevos al gusto (Sin aliños, Con aliños, Rancheros o Con tocineta).</p>
+</div>
+<div class="mt-3 pt-2 border-t border-outline-variant/20 flex justify-end">
+
+</div>
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-3.5 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Arepa Paisa</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$14.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Arepa dorada de mote con abundante queso campesino, chorizo artesanal&nbsp; y nuestro delicioso hogao tradicional.</p>
+</div>
+<div class="mt-3 pt-2 border-t border-outline-variant/20 flex justify-end">
+
+</div>
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-3.5 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Patacón Tragoncito</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$14.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Patacón crocante&nbsp; con chicharrón crujiente picado y hogao casero recién preparado.</p>
+</div>
+<div class="mt-3 pt-2 border-t border-outline-variant/20 flex justify-end">
+
+</div>
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-3.5 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Arepa de Chócolo Especial</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$14.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Arepa de chócolo tierno con queso campesino rallado&nbsp; y huevos estrellados al gusto.</p><div class="">Elige la mejor opción para los huevos:<br>*Sin aliños<br>*Con aliños<br>*Rancheros<br>*Con tocineta</div><p class=""></p>
+</div>
+<div class="mt-3 pt-2 border-t border-outline-variant/20 flex justify-end">
+
+</div>
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-3.5 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Americano</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$14.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Omelet suave de jamón y queso, croissant fresco recién horneado, jugo de naranja natural y fruta de temporada.</p>
+</div>
+<div class="mt-3 pt-2 border-t border-outline-variant/20 flex justify-end">
+
+</div>
+</div>
+<div class="dish-item rounded-lg bg-surface-container-high/40 p-3.5 border border-outline-variant/30 flex flex-col justify-center text-center">
+<p class="text-label-sm font-label-sm text-secondary uppercase tracking-wider mb-1">Para Acompañar</p>
+<p class="text-body-md font-body-md text-on-surface">Chocolate en agua • Café con Leche • Jugos de Fruta Naturales</p>
+</div>
+</div>
+</section>
+<!-- SECTION: ALMUERZOS -->
+<section class="menu-category space-y-4" id="almuerzos">
+<div class="flex items-center gap-3">
+<span class="text-2xl">🍽️</span>
+<div class="chalk-mark px-4 py-1.5 rounded-lg border-l-4 border-primary-container">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg uppercase text-on-surface tracking-wide">
+            ALMUERZOS EL TRAGÓN
+          </h2>
+</div>
+<span class="text-label-sm font-label-sm text-secondary bg-surface-container px-2 py-1 rounded border border-outline-variant/30 ml-auto">Tradición Paisa</span>
+</div>
+<!-- Menú Ejecutivo Banner -->
+<div class="rounded-xl bg-surface-container-high p-4 md:p-6 border border-primary-container/40 chalk-border">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-2 mb-3">
+<div>
+<span class="text-label-sm font-label-sm uppercase bg-primary-container text-on-primary px-2.5 py-0.5 rounded font-bold">ALMUERZO EJECUTIVO COMPLETO</span>
+<h3 class="text-headline-lg font-headline-lg text-primary-fixed mt-1">SOPAS + PROTEÍNA + GUARNICIÓN + SOBREMESA</h3>
+</div>
+<span class="text-display-lg-mobile font-display-lg-mobile text-secondary-fixed-dim">$18.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">
+<strong class="text-on-surface">Sopas a elegir:</strong> Fríjoles Antioqueños, Consomé de Pescado o Sopa del Día. <br>
+<strong class="text-on-surface">Proteínas:</strong> Carne de Res, Cerdo a la plancha, Chicharrón ⭐, Pechuga, Lomo, Carne Desmechada o Hígado Encebollado. <br>
+<strong class="text-on-surface">Acompañantes:</strong> Arroz blanco, ensalada campesina y tajada de maduro + bebida fresca.
+        </p>
+</div>
+<!-- Menú Especial Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+<!-- Cazuela El Tragón -->
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="aspect-[16/10] bg-surface-container-lowest">
+<img alt="Cazuela El Tragón" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrWRfMdVKYZRHRO7MvJqRPwSm2fb8r6foUlb6jny6X5abwhuBkyTKDvtVp0kUIHK5AmG2Ft8RK7mnt33jCePEHIvfRoVK6PkZ0FmgUk86Vcr7P8FQOgBm7wZuhxS0whvrmCaIKiMjljBZZCplWAXrRDtBJNet33GCRowSozNQbFbQtUcmbvIj5ZEiJkzI_oFqk70lNmWk3JFL8s7hrjtwvLTXvgbuvvMuS8FovuiJUctrKhWDng05XJiVSG4tGbt-ORH9BcGuUaFWjUpI">
+</div>
+<div class="p-4 space-y-2 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Cazuela El Tragón ⭐</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$25.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Una verdadera explosíon de sabor: frijoles, maiz, chorizo, maduro, aguacate, ripio de papa, carne molida y trozos de chicharrón, acompañados de arroz y ensalada.</p>
+</div>
+
+</div>
+</div>
+<!-- Salmón al Chimichurri -->
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="aspect-[16/10] bg-surface-container-lowest">
+<img alt="Salmón al Chimichurri" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1-7fNz4NZaRA-sfmTy3koXHoBTTIlK8EgXsqOU7NfL5BM6c825F71aJvBHdB_z2bAJrGVNko4K-UoMinrFBrLv0E4bMCvk7WH7G2oDNT3v69iRlKVeEXLE5D21NENdy__Ob0HpGgn3pVYgMyEfcTQduNoOeK_xhpohFb420n763-vp0vm5mc5IItu1Ox0xazndKh0EcwEkcNhwLrr2hZ5E-Z7nIehLOKs9Zm8o5Sv2Pbs9DmrC4-M79jXLlisOG6jH739cvPl8R3neK8">
+</div>
+<div class="p-4 space-y-2 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Salmón al Chimichurri ⭐</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$25.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">
+                Filete de salmón sellado al punto con chimichurri aromático de la casa, arroz, patacón con hogao criollo y ensalada fresca.
+              </p>
+</div>
+
+</div>
+</div>
+<!-- Arroz de Camarones -->
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="aspect-[16/10] bg-surface-container-lowest">
+<img alt="Arroz de Camarones" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHabZPW3RWdSQfzd8soRetpfF-syMgd9a6OBTMD0yDEyGoBUkI5uKzE79_UJTV8a_GtLiNZscOUW-i14VcsDRY0jV-d34D3ahOVrAt29mh0gs10wu-6xNW6YQ9AUevqnrZ2XAUDgde6-Cm9gug-l7yrT2PpYQ0WM-59ZhU-ySiPY8i5r0zOIwhnDCCN70chCWEqwJV3AeuoHG4CdhZgVAMLfJHSOXLEUP7TAnbpGejprPWeoTRpi1PzQ">
+</div>
+<div class="p-4 space-y-2 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Arroz de Camarones</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$25.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">
+                Arroz sazonado al wok con camarones jugosos en reducción de hierbas, servido con patacones crocantes y pico de gallo.
+              </p>
+</div>
+
+</div>
+</div>
+<!-- Pescado Frito Dorado -->
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="aspect-[16/10] bg-surface-container-lowest">
+<img alt="Filete de Tilapia Pescado Frito" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-eSgU2u2jG0GEhus33m8A8GpumxlP0jCQqwN1UodMcaDiMEYXSdV7ksYi5oOCJFXWkBXzCNMmjgojHfUpaJvtN_1FulEbaSt8AyHdk2fUbEEhM6xrf7re22NMX-ZwD35zE9Btx9Y3K9IcoCBcha15-55mTsU1JHVBnse3KXQ92l-zlUUL63ZFvnLR1VdHCDiAW6nAE8U5j8UfudRIO9qlYgfbKPUWBA7ZowQI7kswVWjeWWUYmawgUw">
+</div>
+<div class="p-4 space-y-2 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Filete de Tilapia / Frito ⭐</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$25.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Suave filete dorado al punto crujiente, servido con arroz, patacones doraditos y ensalada dulce.
+              </p>
+</div>
+
+</div>
+</div>
+<!-- Costillas BBQ -->
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="aspect-[16/10] bg-surface-container-lowest">
+<img alt="Costillas BBQ" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfVDNwXU04e1CwIIjXcJw8ou7VgI40-G2j7K8oO6ANe0uMltvMS7uW07CA5wAlDPEJzw_NhdHvZFQ9UzegMyxlXCpUI7isJx4DKnX-FV3WAPZEcg4ef-7-SP6lxb_DjAJMSQB1RKhBFy7iitxL3akaV9vwWVXrq19NhnbMbBCx5byZyAYdox02T0MWYhHcRioUzDqvzSo_g2LEKholord8e0EgDRJLFxIRO7mrLQNO1079CABJ2QXewbJ7Bwnrrvoz8h3OW8I8Hgqnamg">
+</div>
+<div class="p-4 space-y-2 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Costillas BBQ ⭐</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$25.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">
+                Jugosas costillas&nbsp; bañadas en reducción de salsa BBQ artesanal, con arroz blanco y papas a la francesa.
+              </p>
+</div>
+
+</div>
+</div>
+<!-- Sancocho Típico Campesino -->
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="aspect-[16/10] bg-surface-container-lowest">
+<img alt="Sancocho Típico Campesino" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPVofolbpLPqwY_DrYtDtLk_6P3hkzFG-8YZKfUHwA_VhA-_k-UMz-fI377cFC3GkHQxlASUU6xe4d8IPL5bRpB_1odOC_Y9tMu7wNRVw_P63BxkyEBPxbWSzgd8-fxA1-Ob-1W8HMMKUYq_5ylFYMPX-WmffmVF8C-An0VqEEDhgkKT0EyxPpBA9p1ELXmL5rnCDIWMFDWKUfTCpKnOVHZgsy3_Z2CcGQfZeEWF52UpmGmKs9av0__g">
+</div>
+<div class="p-4 space-y-2 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Sancocho Campesino</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$25.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">
+                Caldo denso cocinado a fuego lento con mazorca, yuca, plátano verde, papa criolla y proteína a elección con arroz y aguacate.
+              </p>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: ENTRADAS -->
+<section class="menu-category space-y-4" id="entradas">
+<div class="flex items-center gap-3">
+<span class="text-2xl">🌶️</span>
+<div class="chalk-mark px-4 py-1.5 rounded-lg border-l-4 border-primary-container">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg uppercase text-on-surface tracking-wide">
+            ENTRADAS PARA COMPARTIR
+          </h2>
+</div>
+<span class="text-label-sm font-label-sm text-secondary bg-surface-container px-2 py-1 rounded border border-outline-variant/30 ml-auto">Pique Caliente</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- Nachos Ardientes -->
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 p-4 flex flex-col sm:flex-row gap-4 items-center">
+<div class="w-full sm:w-44 aspect-square rounded-lg overflow-hidden shrink-0 bg-surface-container-lowest">
+<img alt="Nachos Ardientes El Tragón" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAu02rPk4e83WjPbIvYwVJYN1Qk3D6FSIol76luZw-37O1DPYqBc0-fsfnFqujp_zNErq6hPuOTTcFd6Vz_ZekUtIuMzVSRBFd87qW4YQdDFzYvwgTmP0mQqugkCBzJnwSB2Zm5-0odiUa6NDfaN694cW4JGLnxKs1xEc1zJnlFtp1QzrYByhL0xb6M_bvPVugdgiK_HB5ZLdtuKJqOOK4SRNieSPgcPiiYILPU4XZ17GS1JAh1M9FJDGqL5KldfD5_aiLgvKkE_dZ5Oak">
+</div>
+<div class="flex-1 space-y-1.5">
+<div class="flex justify-between items-baseline">
+<h3 class="text-headline-md font-headline-md uppercase text-on-surface">Nachos Ardientes ⭐</h3>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$18.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Crujientes nachos acompañados de guacamole, maíz, pico de gallo y bondiola desmechada bañada en deliciosa salsa BBQ.</p>
+<a class="inline-block px-3 py-1 bg-surface-container text-primary font-label-lg text-label-lg uppercase rounded border border-outline-variant/40 mt-1" href="https://wa.me/573242944513?text=Quiero%20pedir%20Nachos%20Ardientes" target="_blank">Pedir +</a>
+</div>
+</div>
+<!-- Ceviche de Chicharrón -->
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 p-4 flex flex-col sm:flex-row gap-4 items-center">
+<div class="w-full sm:w-44 aspect-square rounded-lg overflow-hidden shrink-0 bg-surface-container-lowest">
+<img alt="Ceviche de Chicharrón" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBscld_5IeqaaVtz3d3IJRTmL19yiVMSuObnFf8Fkt2Oun9F9gPH-JqjGcP4axyNWXllwJ26ZP8ThaOWAQl1JpZTofseb7_NDaDnLcYAoQcX_F2qO_ez9l_C54WYgWxqMuWRulWw8aURN06YdtNPh-qlilFvoF6gNSqwrfhpzc6Dx0-c2EFtzA1YYCPzs8qXipDNswUUz02fUD-WktvGgK6YKjKLwCg8mGEEydpGGBsxT8RdldxQRUzNB72iFMPI0Vk3eg5ryEEHtzZC4k">
+</div>
+<div class="flex-1 space-y-1.5">
+<div class="flex justify-between items-baseline">
+<h3 class="text-headline-md font-headline-md uppercase text-on-surface">Ceviche de Chicharrón ⭐</h3>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$18.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Trozos de chicharrón acompañados de fresco pico de gallo, chips de plátano,arepitas y guacamole.</p>
+
+</div>
+</div>
+<!-- Canastas Criollas -->
+<div class="dish-item rounded-lg bg-surface-container p-4 border border-outline-variant/20 flex justify-between items-center">
+<div>
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Canastas Criollas ⭐</h4>
+<p class="text-body-md font-body-md text-on-surface-variant">6 crujientes canastas de plátano rellenas con carne desmechada jugosa y hogado.</p>
+</div>
+<div class="text-right shrink-0 ml-4">
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim block">$18.000</span>
+
+</div>
+</div>
+<!-- Papas de la Casa -->
+<div class="dish-item rounded-lg bg-surface-container p-4 border border-outline-variant/20 flex justify-between items-center">
+<div>
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Papas de la Casa</h4>
+<p class="text-body-md font-body-md text-on-surface-variant">Porcion de papas para compartir, acompañada de nuestros ingredientes y salsas de la casa.</p>
+</div>
+<div class="text-right shrink-0 ml-4">
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim block">$18.000</span>
+
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: CORTES A LA PARRILLA -->
+<section class="menu-category space-y-4" id="parrilla">
+<div class="flex items-center gap-3">
+<span class="text-2xl">🥩</span>
+<div class="chalk-mark px-4 py-1.5 rounded-lg border-l-4 border-primary-container">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg uppercase text-on-surface tracking-wide">
+            CORTES A LA PARRILLA
+          </h2>
+</div>
+<span class="text-label-sm font-label-sm text-on-surface-variant ml-auto hidden sm:inline">Incluyen Francesas + Ensalada + Salsas</span>
+</div>
+<!-- Feature Cut: Punta de Anca -->
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/40 p-4 md:p-6 grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+<div class="md:col-span-5 rounded-lg overflow-hidden border border-outline-variant/30 aspect-[4/3] bg-surface-container-lowest">
+<img alt="Punta de Anca de Res" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBl22PaQ-9ahcmVr4EKo7SMxs5gOheawiyEXh0stIiePODOR81qu8Jqn4nCI6qud8EbTD8nPog5OSQ177H72n8hLbbRxIwuKY4dT1DLDZVx39k6rSo4Waj_ZVxchh8ZxH8LjvJpHS58REhbyMfeEML9h-g81KO-NkqdKSaMSfP4cXxmhg_DyqN3orafO6p6SSU-CQSscU4PKQsj-wpNPkMX_n7EaitQUhEimSAMnfGwaMTkjuHH_Sv1KwOSTwc12YeKVYYiz19-5igscQg">
+</div>
+<div class="md:col-span-7 space-y-3">
+<div class="flex flex-wrap items-center justify-between gap-2">
+<div class="flex items-center gap-2">
+<span class="bg-primary-container text-on-primary font-label-sm text-label-sm uppercase px-2 py-0.5 rounded font-bold">CORTE RECOMENDADO</span>
+<span class="text-label-sm font-label-sm text-outline">250 GRAMOS</span>
+</div>
+<span class="text-headline-lg font-headline-lg text-secondary-fixed-dim">$40.000</span>
+</div>
+<h3 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg uppercase text-on-surface">Punta de Anca de Res ⭐</h3>
+<p class="text-body-md font-body-md text-on-surface-variant">Jugoso corte de res preparadoa la parrilla, con todo el sabor&nbsp; en su punto perfecto. (250g)</p>
+<div class="pt-2">
+<a class="px-5 py-2 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg uppercase inline-flex items-center gap-2 active:scale-95" href="https://wa.me/573242944513?text=Quiero%20pedir%20Punta%20de%20Anca%20de%20Res" target="_blank">
+<span class="material-symbols-outlined text-base" data-icon="restaurant_menu">restaurant_menu</span>
+              Elegir Término y Pedir
+            </a>
+</div>
+</div>
+</div>
+<!-- Parrilla Grid Cuts -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+<div class="dish-item rounded-lg bg-surface-container p-4 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Solomo de Res (250g) 👑</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$42.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Corte magro y de altísima terneza, sellado con sal gruesa a fuego vivo.</p>
+</div>
+
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-4 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Churrasco (250g) 🔥</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$38.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Corte tradicional con grasa lateral crocante e intenso sabor ahumado.</p>
+</div>
+
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-4 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Punta de Anca de Cerdo 🔥</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$34.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">250 gramos de jugoso corte de cerdo preparado a la parrilla, doradito por fuera y lleno de sabor.</p>
+</div>
+
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-4 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Pechuga a la Parrilla (250g) ⭐</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$36.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Pechuga de pollo preparada ala parrilla, suave, jugosa y perfectamnete sazonada.</p>
+</div>
+
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-4 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Lomo de Cerdo (230g) ⭐</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$28.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Corte magro y jugoso preparado a la parrila con el sazón de la casa.</p>
+</div>
+<a class="mt-3 text-right text-label-sm font-label-sm text-primary uppercase font-bold hover:underline" href="https://wa.me/573242944513?text=Quiero%20pedir%20Lomo%20Cerdo" target="_blank">Pedir +</a>
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-4 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Churrasco Pollo (250g) 🍊</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$30.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Muslo deshuesado a la parrilla con piel dorada crujiente en salsa de naranja.</p>
+</div>
+
+</div>
+</div>
+</section>
+<!-- SECTION: PICADAS AL BARRIL -->
+<section class="menu-category space-y-4" id="picadas">
+<div class="flex items-center gap-3">
+<span class="text-2xl">🍖</span>
+<div class="chalk-mark px-4 py-1.5 rounded-lg border-l-4 border-primary-container">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg uppercase text-on-surface tracking-wide">
+            PICADAS AL BARRIL
+          </h2>
+</div>
+<span class="text-label-sm font-label-sm text-secondary bg-surface-container px-2 py-1 rounded border border-outline-variant/30 ml-auto">La Especialidad</span>
+</div>
+<div class="rounded-xl bg-surface-container-low border border-outline-variant/40 p-4 md:p-6 grid grid-cols-1 md:grid-cols-12 gap-6">
+<div class="md:col-span-5 rounded-lg overflow-hidden border border-outline-variant/30 aspect-[3/4] bg-surface-container-lowest">
+<img alt="Picada La Tragona al Barril" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9KN2EbURFHnNaDwTO8ulRqvYJfmmzSif7RS377x-dIlvrdKYHb55cVibJor4jtZV1iDEkMMTZA4KQPHtnGtmloKW3a_ViECQZPeI6otv-q8TfTgLg-Wk4WGCf7v9KGhyz6UlMeXYGT4jpKlRpx66u4CPFuLOnF9T1Raq60JEakU6dwLvttKfLOAh9PmH4qnUYCkj_CUhapZAd8YpcJshSARjKD4HDSDWWTR8KVaimjJvs-zGRWr13MIh2Cs3hVDZ7E84x5lLzb5mwd_M">
+</div>
+<div class="md:col-span-7 flex flex-col justify-between space-y-4">
+<div class="space-y-2">
+<span class="text-label-sm font-label-sm uppercase bg-primary-container text-on-primary px-2.5 py-0.5 rounded font-bold">¡EL VERDADERO PARCHE!</span>
+<h3 class="text-headline-lg font-headline-lg uppercase text-on-surface">PICADA LA TRAGONA AL BARRIL</h3>
+<p class="text-body-md font-body-md text-on-surface-variant">
+              Exquisita combinación de carne de res, pulpa de cerdo al barril, pechuga de pollo marinada, chicharrón crocante carnudo, morcilla paisa artesanal, chorizo artesanal parrillero, papas criollas doraditas, arepa montada con queso mozzarella fundido y trío de salsas caseras.
+            </p>
+</div>
+<!-- Pricing by Portions -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2">
+<div class="p-2.5 rounded-lg bg-surface-container border border-outline-variant/30 text-center">
+<span class="text-label-sm font-label-sm text-outline block">1 Persona</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$25.000</span>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container border border-outline-variant/30 text-center">
+<span class="text-label-sm font-label-sm text-outline block">2 Personas</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$48.000</span>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container border border-outline-variant/30 text-center">
+<span class="text-label-sm font-label-sm text-outline block">3 Personas</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$68.000</span>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container-high border border-primary-container text-center">
+<span class="text-label-sm font-label-sm text-secondary block font-bold">4 Personas 👑</span>
+<span class="text-headline-md font-headline-md text-primary-fixed">$88.000</span>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+<!-- SECTION: CHUZOS & ALITAS -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+<!-- CHUZOS -->
+<section class="menu-category space-y-4" id="chuzos">
+<div class="flex items-center gap-3">
+<span class="text-2xl">🍢</span>
+<div class="chalk-mark px-4 py-1.5 rounded-lg border-l-4 border-primary-container">
+<h2 class="text-headline-lg-mobile font-headline-lg-mobile uppercase text-on-surface">CHUZOS EL TRAGÓN</h2>
+</div>
+</div>
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden">
+<div class="aspect-[16/9] bg-surface-container-lowest">
+<img alt="Chuzos a la Brasa El Tragón" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCp8vrsJKFQRjYpQBxF9kGVs3838bDaUrViB8-kMACrx-HV8YL56ypn6eny3iTn0BMgTOrBUORrXRnjCLKd5OGzucKxyi5UOPgppk4duodLN_ZhmYVNyueha_D21fTTPN1rHB5bNOHB14A35fS3BgY9epld3lD9yuuqmnG0v-T8DH1AEPWiw5FurbkxsXB3hnyiA_AS0ubRnbUQA0jF7jkRydVqGXAnYJChPaMFqW0pqYpN1LxVCD9ZwBNBCEX0HMmuinBabwTCR3q9S8I">
+</div>
+<div class="p-4 space-y-3">
+<p class="text-body-md font-body-md text-on-surface-variant">Con papas a la francesa, arepa con mozzarella gratinada y salsas tártara y piña de la casa.</p>
+<div class="space-y-2">
+<div class="flex justify-between items-center py-1.5 border-b border-outline-variant/20">
+<span class="text-body-lg font-body-lg text-on-surface">Chuzo de Pollo (Pechuga Marinada)</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$18.000</span>
+</div>
+<div class="flex justify-between items-center py-1.5 border-b border-outline-variant/20">
+<span class="text-body-lg font-body-lg text-on-surface">Chuzo de Cerdo al Carbón</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$18.000</span>
+</div>
+<div class="flex justify-between items-center py-1.5 border-b border-outline-variant/20">
+<span class="text-body-lg font-body-lg text-on-surface">Doble Chuzo (Pollo o Cerdo)</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$34.000</span>
+</div>
+<div class="flex justify-between items-center py-1.5">
+<span class="text-body-lg font-body-lg text-secondary font-bold">Tragón Mixto (Res, Cerdo &amp; Pollo)</span>
+<span class="text-headline-md font-headline-md text-primary-fixed">$34.000</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ALITAS -->
+<section class="menu-category space-y-4" id="alitas">
+<div class="flex items-center gap-3">
+<span class="text-2xl">🍗</span>
+<div class="chalk-mark px-4 py-1.5 rounded-lg border-l-4 border-primary-container">
+<h2 class="text-headline-lg-mobile font-headline-lg-mobile uppercase text-on-surface">ALITAS EL TRAGÓN</h2>
+</div>
+</div>
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden">
+<div class="aspect-[16/9] bg-surface-container-lowest">
+<img alt="Alitas BBQ y Miel Mostaza" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcINobLv2rhbZi1s-PtWH7gcPAm5Fl2oFRcQNWZnMecld631QNaeagLBUtEE764LwV6vgGzBS4yqw8nM5BzeDcWzq3xYqCziHNTs3yde29Jk7QK3NEpLh-EMNDDZDYmLa7AKxC7puLdd9RRy4zOP4wcZQBukeI_QVPAjIPbvm-bWTmSxY9BGSAZkgLpilyjCnHZVae32zU-AWi3P21Rx11Izszq5abrnkYxDWqH8HYS7eeekFu2-WYPAwrmQAPVQZcSWtR290-8o8Hsto">
+</div>
+<div class="p-4 space-y-3">
+<p class="text-body-md font-body-md text-on-surface-variant">Con papas francesas. Salsas: BBQ, Miel Mostaza, Picante de la Casa, Búfalo o Teriyaki.</p>
+<div class="grid grid-cols-2 gap-2">
+<div class="p-2 rounded bg-surface-container flex justify-between items-center">
+<span class="text-label-sm font-label-sm text-outline">Combo 6 Alitas</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$20.000</span>
+</div>
+<div class="p-2 rounded bg-surface-container flex justify-between items-center">
+<span class="text-label-sm font-label-sm text-outline">Combo 10 Alitas</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$30.000</span>
+</div>
+<div class="p-2 rounded bg-surface-container flex justify-between items-center">
+<span class="text-label-sm font-label-sm text-outline">Combo 14 Alitas</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$40.000</span>
+</div>
+<div class="p-2 rounded bg-surface-container flex justify-between items-center">
+<span class="text-label-sm font-label-sm text-outline">Combo 20 Alitas</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$55.000</span>
+</div>
+<div class="col-span-2 p-2 rounded bg-surface-container-high border border-outline-variant/40 flex justify-between items-center">
+<span class="text-label-sm font-label-sm text-secondary font-bold">Mega Combo 30 Alitas 👑</span>
+<span class="text-headline-md font-headline-md text-primary-fixed">$75.000</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- SECTION: HAMBURGUESAS -->
+<section class="menu-category space-y-4" id="hamburguesas">
+<div class="flex items-center gap-3">
+<span class="text-2xl">🍔</span>
+<div class="chalk-mark px-4 py-1.5 rounded-lg border-l-4 border-primary-container">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg uppercase text-on-surface tracking-wide">
+            HAMBURGUESAS ARTESANALES
+          </h2>
+</div>
+<span class="text-label-sm font-label-sm text-outline ml-auto">Con Papas Francesas</span>
+</div>
+<!-- Feature Burger: La Indecente -->
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/40 p-4 md:p-6 grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+<div class="md:col-span-5 rounded-lg overflow-hidden border border-outline-variant/30 aspect-[4/3] bg-surface-container-lowest">
+<img alt="Hamburguesa La Indecente con Jeringa de Queso" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2qcgMXcazpXFCWNjxerNj7q5ppOZhy0USovpOHs_3ck64MrukDSevwXXtlnmjDoruSWYuREVg58n3IspnpufQKGmkq-zsSBCCDSFNF5y1TTbqS7mfngTCXbnzjfIX1MQh3ByW4P9LagcHZWvXIWJcAh60XRAfckIojY5a53pCH8Ku9XbXYt6fA1oEjX57ocjFTjP6TvsFbuLLAwqI9D38ufGDeVLW2v3bqMggu7xn0kdeLblkJZ-JcqzJ-kGZaNpRl_7n-HIk5gxQsaY">
+</div>
+<div class="md:col-span-7 space-y-2">
+<div class="flex justify-between items-start">
+<span class="text-label-sm font-label-sm uppercase bg-primary-container text-on-primary px-2 py-0.5 rounded font-bold">¡LA MÁS PEDIDA! 😈</span>
+<span class="text-headline-lg font-headline-lg text-secondary-fixed-dim">$32.000</span>
+</div>
+<h3 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg uppercase text-on-surface">La Indecente</h3>
+<p class="text-body-md font-body-md text-on-surface-variant">
+            Carne 100% res parrillera, tocineta crocante caramelizada, huevo estrellado, queso cheddar derretido, cebolla grillé suave, aguacate y la famosa inyección con jeringa de salsa de queso cheddar fundido caliente.
+          </p>
+<div class="pt-2">
+<a class="px-5 py-2 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg uppercase inline-flex items-center gap-2 active:scale-95" href="https://wa.me/573242944513?text=Quiero%20pedir%20Hamburguesa%20La%20Indecente" target="_blank">
+              Pedir La Indecente
+            </a>
+</div>
+</div>
+</div>
+<!-- Burger Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+<div class="dish-item rounded-lg bg-surface-container p-3.5 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">El Tragón ⭐</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$26.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Carne de res, queso mozzarella, tocineta crujiente, lechuga, tomate y salsa tártara casera.</p>
+</div>
+<a class="mt-3 text-right text-label-sm font-label-sm text-primary uppercase font-bold hover:underline" href="https://wa.me/573242944513?text=Quiero%20Hamburguesa%20El%20Tragón" target="_blank">Pedir +</a>
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-3.5 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">La Marrana 🐷</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$30.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Carne de res seleccionada coronada con abundante chicharrón crocante y mermelada de tocineta.</p>
+</div>
+<a class="mt-3 text-right text-label-sm font-label-sm text-primary uppercase font-bold hover:underline" href="https://wa.me/573242944513?text=Quiero%20Hamburguesa%20La%20Marrana" target="_blank">Pedir +</a>
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-3.5 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">La Salvaje 🔥</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$32.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Doble porción de carne, salsa picante artesanal, tocineta doble y aros de cebolla crocantes.</p>
+</div>
+<a class="mt-3 text-right text-label-sm font-label-sm text-primary uppercase font-bold hover:underline" href="https://wa.me/573242944513?text=Quiero%20Hamburguesa%20La%20Salvaje" target="_blank">Pedir +</a>
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-3.5 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">La Tragona 👑</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$34.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Carne de res + filete de pollo + chicharrón picado + queso cheddar doble y jamón ahumado.</p>
+</div>
+<a class="mt-3 text-right text-label-sm font-label-sm text-primary uppercase font-bold hover:underline" href="https://wa.me/573242944513?text=Quiero%20Hamburguesa%20La%20Tragona" target="_blank">Pedir +</a>
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-3.5 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">La Mostrosa 💀</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$34.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Triple carne de res, triple queso fundido, tocineta crujiente, ripio de papa y salsa barbacoa ahumada.</p>
+</div>
+<a class="mt-3 text-right text-label-sm font-label-sm text-primary uppercase font-bold hover:underline" href="https://wa.me/573242944513?text=Quiero%20Hamburguesa%20La%20Mostrosa" target="_blank">Pedir +</a>
+</div>
+<div class="dish-item rounded-lg bg-surface-container p-3.5 border border-outline-variant/20 flex flex-col justify-between">
+<div>
+<div class="flex justify-between items-baseline mb-1">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">La Coqueta</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$22.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">La clásica perfecta: carne de res seleccionada, queso mozzarella y vegetales frescos con salsas suaves.</p>
+</div>
+<a class="mt-3 text-right text-label-sm font-label-sm text-primary uppercase font-bold hover:underline" href="https://wa.me/573242944513?text=Quiero%20Hamburguesa%20La%20Coqueta" target="_blank">Pedir +</a>
+</div>
+</div>
+</section>
+<!-- SECTION: PERROS CALIENTES -->
+<section class="menu-category space-y-4" id="perros">
+<div class="flex items-center gap-3">
+<span class="text-2xl">🌭</span>
+<div class="chalk-mark px-4 py-1.5 rounded-lg border-l-4 border-primary-container">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg uppercase text-on-surface tracking-wide">
+            PERROS CALIENTES EL TRAGÓN
+          </h2>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center rounded-xl bg-surface-container-low border border-outline-variant/30 p-4 md:p-6">
+<div class="md:col-span-5 rounded-lg overflow-hidden border border-outline-variant/30 aspect-[4/3] bg-surface-container-lowest">
+<img alt="Perro Caliente El Tragón" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuE9R-eVgi7d2VlLOV8ZGYElgDzx_bHkCWpXYGTv69mMDzPSrXHxR2mxAXyiNGGz_5KczOoV5CTYSKOgycQAllip8H9d76y9FNqB_-GTjy0nwDHwJ4qjz9VA7BnkWYD-H1l6SqEPleVZMlt_LcRwOrHWr4jpSo8hK5WLNcsd5RXS8RvUSIQa82aB5hJpPf0jBZRpbb-PXWfPk0gIiwc-o9CMpq3yNhu_lfNfzfZMjxpdfAt2sH8RbsThEdrUoyljbS_qtgC5pZ7c6rLkI">
+</div>
+<div class="md:col-span-7 space-y-3">
+<div class="flex justify-between items-baseline">
+<h3 class="text-headline-lg-mobile font-headline-lg-mobile uppercase text-on-surface">Perro Caliente El Tragón ⭐</h3>
+<span class="text-headline-lg font-headline-lg text-secondary-fixed-dim">$20.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">
+            Pan artesanal suave y dorado, salchicha americana jumbo, queso mozzarella fundido, tocineta crujiente, ripio de papa bien tostado, maíz tierno dulce, huevo de codorniz y lluvia de salsas.
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
+<div class="p-2 rounded bg-surface-container flex justify-between items-center">
+<span class="text-body-md font-body-md text-on-surface">El Clásico</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$16.000</span>
+</div>
+<div class="p-2 rounded bg-surface-container flex justify-between items-center">
+<span class="text-body-md font-body-md text-on-surface">La Tragona</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$18.000</span>
+</div>
+<div class="p-2 rounded bg-surface-container flex justify-between items-center">
+<span class="text-body-md font-body-md text-on-surface">El Marrano 🐷</span>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$23.000</span>
+</div>
+<div class="p-2 rounded bg-surface-container flex justify-between items-center">
+<span class="text-body-md font-body-md text-secondary font-bold">El Supremo 👑</span>
+<span class="text-headline-md font-headline-md text-primary-fixed">$26.000</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: SALCHIPAPAS & PATACONES (2-col Bento) -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+<!-- SALCHIPAPAS -->
+<section class="menu-category space-y-4" id="salchipapas">
+<div class="flex items-center gap-3">
+<span class="text-2xl">🍟</span>
+<div class="chalk-mark px-4 py-1.5 rounded-lg border-l-4 border-primary-container">
+<h2 class="text-headline-lg-mobile font-headline-lg-mobile uppercase text-on-surface">SALCHIPAPAS</h2>
+</div>
+</div>
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden">
+<div class="aspect-[16/9] bg-surface-container-lowest">
+<img alt="Salchipapa La Tragona" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD35T4-z5_BcMitmm4uo-iedsNsStu0NFa8e2cMAJjm-VUe_D-dVziwfY4Z7YG4_08qQTUs6rcldBuLU8mB7kVN0oGnGqEnPCI1Lej5AxRFeiDta1ed-oEDqM-c4pWAayMNAAO34wuRAaAVeBV1Qinfl8g3ah6ct40nSsCCmDy5SUzamBaLI2-wOaWNwKHK7m9T2pgC6zVRZykBqCZgqvTIy_Y_pawF9s3aFFl0ih3srLZsvmeBHF0iLqYia0ZZSW1rg0OIkl-ys8v4ewM">
+</div>
+<div class="p-4 space-y-3">
+<div class="flex justify-between items-baseline">
+<h3 class="text-headline-md font-headline-md uppercase text-on-surface">Salchipapa La Tragona 👑</h3>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$34.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">
+              Montaña de papas francesas, salchicha ranchera, chicharrón carnudo, pollo desmechado, tocineta, queso mozzarella fundido y huevos de codorniz.
+            </p>
+<div class="space-y-1.5 text-body-md font-body-md pt-2 border-t border-outline-variant/20">
+<div class="flex justify-between"><span class="">Mandipapitas con Salchicha</span><span class="text-secondary-fixed-dim font-bold">$8.000</span></div>
+<div class="flex justify-between"><span class="">Mandipapitas El Tragón</span><span class="text-secondary-fixed-dim font-bold">$10.000</span></div>
+<div class="flex justify-between"><span class="">Salchipapa Clásica</span><span class="text-secondary-fixed-dim font-bold">$16.000</span></div>
+<div class="flex justify-between"><span class="">Salchipapa El Tragón ⭐</span><span class="text-secondary-fixed-dim font-bold">$22.000</span></div>
+<div class="flex justify-between"><span class="">Salchipapa Marrana (Con Chicharrón)</span><span class="text-secondary-fixed-dim font-bold">$26.000</span></div>
+<div class="flex justify-between"><span class="">Salchipapa Paisa</span><span class="text-secondary-fixed-dim font-bold">$28.000</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- PATACONES -->
+<section class="menu-category space-y-4" id="patacones">
+<div class="flex items-center gap-3">
+<span class="text-2xl">🍌</span>
+<div class="chalk-mark px-4 py-1.5 rounded-lg border-l-4 border-primary-container">
+<h2 class="text-headline-lg-mobile font-headline-lg-mobile uppercase text-on-surface">PATACONES EL TRAGÓN</h2>
+</div>
+</div>
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden">
+<div class="aspect-[16/9] bg-surface-container-lowest">
+<img alt="Patacón Tragón Especial" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsW2j6mjpDFRQ74v0zp6a0EqVxenS8AyF2AiPEve10x4-r4C66BeO2P8p5pTHrilmWnRwmHZClCrHibOoRpMApL9e_YeUv7_zY3xA4-vtDTKyIrAIPrHX1RC5OEk4xuWhZdrQDmhMRd4VQgcAM7XdwnpfvoH2N-uRqIgqVQYzxaVn8jjXJXXKxHjDbhMk4YhD9faVNPLs8sQ1OLLcxlwZ9cASwW08n96X-p1kn1NoeveF9yTS7pZy7V2bV59Hjak74DkY-ZDvUy-6ZWHA">
+</div>
+<div class="p-4 space-y-3">
+<div class="flex justify-between items-baseline">
+<h3 class="text-headline-md font-headline-md uppercase text-on-surface">Patacón Tragón ⭐</h3>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$29.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">
+              Disco de plátano verde gigante súper crocante, carne desmechada y pechuga bañada en hogao, queso mozzarella fundido, maíz dulce y aguacate.
+            </p>
+<div class="space-y-1.5 text-body-md font-body-md pt-2 border-t border-outline-variant/20">
+<div class="flex justify-between"><span class="">Patacón Sencillo con Hogao y Queso</span><span class="text-secondary-fixed-dim font-bold">$20.000</span></div>
+<div class="flex justify-between"><span class="">Patacón con Carne Desmechada</span><span class="text-secondary-fixed-dim font-bold">$26.000</span></div>
+<div class="flex justify-between"><span class="">Patacón Supremo 👑 (Mixto con Chicharrón)</span><span class="text-secondary-fixed-dim font-bold">$33.000</span></div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- SECTION: BEBIDAS -->
+<section class="menu-category space-y-4" id="bebidas">
+<div class="flex items-center gap-3">
+<span class="text-2xl">🍹</span>
+<div class="chalk-mark px-4 py-1.5 rounded-lg border-l-4 border-primary-container">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg uppercase text-on-surface tracking-wide">
+            BEBIDAS &amp; COCTELERÍA
+          </h2>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="aspect-[3/4] bg-surface-container-lowest">
+<img alt="Maracuyá Tropical Cóctel" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcQEvKKbUyHuPYiFfMHBZ9txUm3-BBje6hjEk3CfPv69QEBjHiD9OpzVfh3OPqDiq8sjusj-QYGP6nZU0SLeONvBRNtvnImZCFbvy65OMU-sWrRiXoRidEwDHYVBpzd2Z7tvppmizQNsWEB_rAZLy356YxxFNC1vCGUTutJeUCLlollYZl40msl_TFTQyMaFGhC-ltpq_wMpGgClVEmG2VpgEIv04o8LYAmstI8LeJSTr_iDRy2h85_t56vOk7Q2KIz0WZB0syPqeC0xA">
+</div>
+<div class="p-3.5 space-y-1">
+<div class="flex justify-between items-baseline">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Maracuyá Tropical</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$18.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Refrescante pulpa de maracuyá, menta fresca y soda burbujeante.</p>
+</div>
+</div>
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="aspect-[3/4] bg-surface-container-lowest">
+<img alt="Cóctel Silvestre" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBLfErsV-bKqwAPiSW7fgfyHfSrA3kQ-Uv2gSJh3MwL0i4NMzN-qJovVozKlWLKIDsBb9XAKBEEN2w12M6M0_tJlENjbbUwQxPBQ-WikBXHe_LfcI3vq0gI-Pc7Cn-uPhaA3228iXtyja_JoPako5kk27NMylAy2wG-t5Y001EdH8DQmlWSdqdnbyOgaVuU6zYb80yhd3EjfwO4Jy0QJIEH2VjAThbjE881Pv0UzZVEAAsROFGf_huBA">
+</div>
+<div class="p-3.5 space-y-1">
+<div class="flex justify-between items-baseline">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Cóctel Silvestre</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$17.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Frutos rojos macerados, toque cítrico de limón y soda con escarcha dulce.</p>
+</div>
+</div>
+<div class="dish-item rounded-xl bg-surface-container-low border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="aspect-[3/4] bg-surface-container-lowest">
+<img alt="Laguna Azul Cóctel" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArR2B9jeNN4T5gJNcAaY10EO7e-V38bbDlTjInA7GCjwcpMD8wti91mYfg_uFTqrBTa-xzKrxK4wA3bd8E0dnmXbQkwDZQnBdHlOk0mQxLoIxQguZFQHDqiaijWOl93BrnMG-lfj24xIx77umIYVUfsIIxtlFxSv91n67BdteSJuKK77sKbaTwUtv5SAE1Ep-l-lESrD04pzZnzOmELGvQGmJjHTSJhNFmmHol_CUggUEyrue5t9CP3DQkASOwTcGZYAVviXC6GJxM8Oo">
+</div>
+<div class="p-3.5 space-y-1">
+<div class="flex justify-between items-baseline">
+<h4 class="text-headline-md font-headline-md text-on-surface uppercase">Laguna Azul</h4>
+<span class="text-headline-md font-headline-md text-secondary-fixed-dim">$17.000</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">Cítrico azul electrizante con rodajas de lima y hielo artesanal.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Anchor from Shared Components -->
+<footer class="full-width border-t border-outline-variant/20 bg-surface-container-lowest dark:bg-surface text-center flex flex-col items-center justify-center w-full px-margin py-space-xl pb-24 space-y-space-sm">
+<div class="font-headline-lg text-headline-lg text-primary-container uppercase tracking-wider">
+      EL TRAGÓN
+    </div>
+<p class="text-label-sm font-label-sm text-on-surface-variant max-w-xl">
+      © EL TRAGÓN • ¡QUE CHIMBA DE PARCHE PUES! • Cra 83 # 91 AB 98 • WhatsApp: 324 294 45 13
+    </p>
+<!-- Social / Utility Links from JSON -->
+<div class="flex items-center gap-4 pt-2">
+<a class="text-label-sm font-label-sm uppercase text-on-surface-variant hover:text-secondary-fixed-dim transition-colors duration-150" href="https://wa.me/573242944513" target="_blank">
+        WhatsApp
+      </a>
+<span class="text-outline-variant">•</span>
+<a class="text-label-sm font-label-sm uppercase text-on-surface-variant hover:text-secondary-fixed-dim transition-colors duration-150" href="#mapa">
+        Ubicación
+      </a>
+<span class="text-outline-variant">•</span>
+<a class="text-label-sm font-label-sm uppercase text-on-surface-variant hover:text-secondary-fixed-dim transition-colors duration-150" href="#">
+        Términos
+      </a>
+</div>
+<!-- Quick WhatsApp Floating Action Banner -->
+<div class="pt-4">
+<a class="px-6 py-3 rounded-lg bg-primary-container text-on-primary font-headline-md text-headline-md uppercase inline-flex items-center gap-2 active:opacity-80 transition-opacity duration-150 shadow-lg" href="https://wa.me/573242944513?text=Hola%20El%20Tragón,%20quiero%20hacer%20un%20pedido%20a%20domicilio%20o%20mesa" target="_blank">
+<span class="material-symbols-outlined text-2xl" data-icon="phone_in_talk">phone_in_talk</span>
+<span class="">Pedir a la Mesa / Domicilio por WhatsApp</span>
+</a>
+</div>
+</footer>
+<!-- BottomNavBar Anchor from Shared Components -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-margin py-space-xs bg-surface-container-low/95 backdrop-blur-md shadow-[0_-4px_16px_rgba(0,0,0,0.6)]">
+<!-- Menú (Active Top Destination) -->
+<a class="flex flex-col items-center justify-center bg-primary-container text-on-primary rounded-lg px-space-md py-1 active:scale-95 transition-transform duration-100" href="#desayunos">
+<span class="material-symbols-outlined text-xl" data-icon="restaurant_menu">restaurant_menu</span>
+<span class="text-label-sm font-label-sm uppercase tracking-wider">Menú</span>
+</a>
+<!-- Parrilla -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-space-sm py-1 hover:text-primary transition-colors duration-150 active:scale-95" href="#parrilla">
+<span class="material-symbols-outlined text-xl" data-icon="skillet">skillet</span>
+<span class="text-label-sm font-label-sm uppercase tracking-wider">Parrilla</span>
+</a>
+<!-- Promo ⭐ -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-space-sm py-1 hover:text-primary transition-colors duration-150 active:scale-95" href="#picadas">
+<span class="material-symbols-outlined text-xl" data-icon="local_offer">local_offer</span>
+<span class="text-label-sm font-label-sm uppercase tracking-wider">Promo ⭐</span>
+</a>
+<!-- Contacto -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant px-space-sm py-1 hover:text-primary transition-colors duration-150 active:scale-95" href="https://wa.me/573242944513" target="_blank">
+<span class="material-symbols-outlined text-xl" data-icon="phone_in_talk">phone_in_talk</span>
+<span class="text-label-sm font-label-sm uppercase tracking-wider">Contacto</span>
+</a>
+</nav>
+<!-- Lightweight Native JavaScript for Instant QR Mobile Performance -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Live Instant Dish Search Filter
+      const searchInput = document.getElementById('dish-search');
+      const clearBtn = document.getElementById('clear-search');
+      const dishItems = document.querySelectorAll('.dish-item');
+      const categories = document.querySelectorAll('.menu-category');
+
+      searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        
+        if (query.length > 0) {
+          clearBtn.classList.remove('hidden');
+        } else {
+          clearBtn.classList.add('hidden');
+        }
+
+        dishItems.forEach(item => {
+          const text = item.textContent.toLowerCase();
+          if (text.includes(query)) {
+            item.style.display = '';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+
+        // Hide entire category if all its items are hidden
+        categories.forEach(cat => {
+          const visibleItems = cat.querySelectorAll('.dish-item:not([style*="display: none"])');
+          if (query.length > 0 && visibleItems.length === 0) {
+            cat.style.display = 'none';
+          } else {
+            cat.style.display = '';
+          }
+        });
+      });
+
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        clearBtn.classList.add('hidden');
+        dishItems.forEach(item => item.style.display = '');
+        categories.forEach(cat => cat.style.display = '');
+        searchInput.focus();
+      });
+
+      // 2. Dynamic Scrollspy on Category Bar
+      const catPills = document.querySelectorAll('.cat-pill');
+      window.addEventListener('scroll', () => {
+        let currentSection = '';
+        categories.forEach(section => {
+          const sectionTop = section.offsetTop - 180;
+          if (window.scrollY >= sectionTop) {
+            currentSection = section.getAttribute('id');
+          }
+        });
+
+        if (currentSection) {
+          catPills.forEach(pill => {
+            const href = pill.getAttribute('href').replace('#', '');
+            if (href === currentSection) {
+              pill.classList.remove('bg-surface-container', 'text-on-surface-variant');
+              pill.classList.add('bg-primary-container', 'text-on-primary', 'font-bold');
+            } else {
+              pill.classList.remove('bg-primary-container', 'text-on-primary', 'font-bold');
+              pill.classList.add('bg-surface-container', 'text-on-surface-variant');
+            }
+          });
+        }
+      });
+    });
+  </script>
+
+
+
+
+
+
+</body></html>
